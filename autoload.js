@@ -34,8 +34,14 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
+<<<<<<< Updated upstream
 			apiPath: "https://你的域名/live2d_api/",
 			//cdnPath: "https://你的对象存储域名/live2d_api/"
+=======
+			//apiPath: "https://cdn.jsdelivr.net/gh/irdis0/live2d_api@1.0.0/",
+			//cdnPath: "https://cdn.jsdelivr.net/gh/irdis0/live2d_api@1.0.0/"
+			cdnPath: "http://iridis.cc/live2d_api/"
+>>>>>>> Stashed changes
 		});
 	});
 console.log(`
