@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径，记得修改哦
-const live2d_path = "https://cdn.jsdelivr.net/gh/irdis0/live2d@2.0.0/";
-const tips_path = "https://cdn.jsdelivr.net/gh/irdis0/live2d@2.0.0/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/irdis0/live2d@latest/";
+const tips_path = "https://cdn.jsdelivr.net/gh/irdis0/live2d@latest/";
 //const live2d_path = "";
 //const live2d_path = "/live2d-widget/";
 
@@ -34,8 +34,8 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
-			//apiPath: "https://cdn.jsdelivr.net/gh/irdis0/live2d_api@1.0.0/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/irdis0/live2d_api@1.0.0/"
+			//apiPath: "https://cdn.jsdelivr.net/gh/irdis0/live2d_api@latest/",
+			cdnPath: "https://cdn.jsdelivr.net/gh/irdis0/live2d_api@latest/"
 		});
 	});
 console.log(`
